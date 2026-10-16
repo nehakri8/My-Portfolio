@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #0f0606;
+    background-color: rgb(245, 245, 251);
+    line-height: 1.6;
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;;
+    margin: 0;
+    border-bottom: 1px solid rgb(186, 183, 183);
+}
+
+#logo {
+    border-top: 4px solid rgb(240, 74, 14);
+    border-bottom: 4px solid rgb(240, 74, 14);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+#logo a{
+    color: rgb(240, 74, 14);
+    font-size: 20px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+#home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+#links{
+    display: flex;
+    justify-content:end;
+    align-items:flex-end;
+    gap: 10px;
+}
+
+#links a{
+    border: 2px solid rgb(29, 34, 136);
+    color: rgb(29, 34, 136);
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+/* main */
+
+#home {
+    padding: 5rem 1rem;
+}
+
+h1{
+    color: rgb(114, 18, 100);
+}
+
+#role{
+    display: inline;
+    padding: 3px 10px;
+    color: rgb(153, 38, 134);
+    background-color: rgb(247, 163, 251);
+    border: 2px solid rgb(206, 25, 161);
+    margin:0;
+}
+
+#intro {
+    width: 70%;
+    margin: 15px;
+}
+
+#cv a{
+    padding: 1rem 3rem;
+    color: #fff;
+    background-color: rgba(39, 187, 26, 0.879);  
+    border-radius: 5px;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#cv {
+    margin: 2rem auto;
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin:auto;
+    gap: 2rem;
+    padding:2rem;
+}
+
+#about h2 {
+    width: 50%;
+    font-size: 30px;
+}
+
+#me{
+    text-align: left;
+    color :rgb(91, 124, 29);
+}
+h2{
+    width:3rem;
+    text-align: left;
+    font-size: 30px;
+}
+
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    margin:auto;
+    gap: 2rem;
+    padding: 2rem;
+}
+.myclass li{
+    color: rgb(127, 20, 41);
+    
+}
+
+#img {
+    display: block;
+    width: 300px;
+    height: auto;
+    border-radius:50%; 
+} 
+
+#project{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    margin:auto;
+    gap: 2rem;
+    padding: 2rem;
+}
+.project li{
+    color: brown;
+}
+
+#contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    gap: 3rem;
+    margin: auto;
+    padding: 2rem;
+}
+.mycontact div{
+    margin: 1rem;
+
+}
+
+button{
+    color: rgb(6, 8, 3);
+    background-color: rgb(2, 87, 2);
+    border-radius: 5px;
+    padding:4px 15px;
+    margin: 2px;
+    
+}
+
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: grey;
+
+}
+
+.foot{
+    padding: 2rem;
+    color: #c71919;
+}
+
+h3{
+    color: rgb(69, 9, 73);
+}
+
+a{
+        text-decoration: none;
+
+}
